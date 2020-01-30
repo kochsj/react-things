@@ -15,7 +15,6 @@ export default class ThingList extends React.Component{
     
     handleInputChange(event) {
         const value = event.target.value
-    
         this.setState({
           itemToAdd: value
         });
