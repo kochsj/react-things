@@ -1,12 +1,5 @@
 import React from 'react';
 
-export default class ThingList extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            thingList = [
-                {name:'Something'}
-            ]
-        }
-    }
+export default function ThingList(props){
+    return <p>hello</p>
 }

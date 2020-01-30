@@ -1,14 +1,18 @@
 import React from 'react';
 import './App.css';
 import Header from './header.js';
-// import Footer from './footer.js';
-// import ThingList from './thingList.js';
+import Footer from './footer.js';
+import ThingList from './thingList.js';
 
 export default class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      thingListData : null,
+      thingList : [
+        {name:'Something'},
+        {name:'Other Thing'},
+        {name:'yet another thing'},
+      ]
     }
   
   }
@@ -16,9 +20,9 @@ export default class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <Header count="4"/>
-        {/* <ThingList />
-        <Footer /> */}
+        <Header count={this.state.thingList.length}/>
+        <ThingList />
+        <Footer />
       </div>
     );
   }
