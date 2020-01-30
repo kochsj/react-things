@@ -1,0 +1,12 @@
+{
+    "file-name" : "things-list",
+    "list" : [
+        {"name": "Toaster", "id": 8447.268795036374},
+        {"name": "Sandwich", "id": 3261.464571389989},
+        {"name": "Umbrella", "id": 6343.954994111627},
+        {"name": "Favorite Shirt", "id": 7277.747743480767},
+        {"name": "Laptop", "id": 9053.437709451018},
+        {"name": "Sponge", "id": 9492.804624893322},
+        {"name": "Whiteboard", "id": 9530.09832288282}
+    ]
+}
